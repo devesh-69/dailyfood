@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm start\" \"cd ../backend && nodemon server.js\"",
+    "dev": "concurrently \"npm start\" \"cd ../backend && nodemon api/index.js\"",
     "start": "vite",
     "build": "vite build",
     "lint": "eslint .",
