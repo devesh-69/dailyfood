@@ -1,0 +1,22 @@
+{
+  "name": "dailyfood-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "rustloader",
+  "description": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
